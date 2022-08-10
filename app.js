@@ -1,12 +1,12 @@
-let clap = new Audio("sounds/clap.wav");
-let kick = new Audio("sounds/kick.wav");
-let tink = new Audio("sounds/tink.wav");
-let tom = new Audio("sounds/tom.wav");
-let boom = new Audio("sounds/boom.wav");
-let hihat = new Audio("sounds/hihat.wav");
-let openhat = new Audio("sounds/openhat.wav");
-let snare = new Audio("sounds/snare.wav");
-let ride = new Audio("sounds/ride.wav");
+let clap = new Audio("./sounds/clap.wav");
+let kick = new Audio("./sounds/kick.wav");
+let tink = new Audio("./sounds/tink.wav");
+let tom = new Audio("./sounds/tom.wav");
+let boom = new Audio("./sounds/boom.wav");
+let hihat = new Audio("./sounds/hihat.wav");
+let openhat = new Audio("./sounds/openhat.wav");
+let snare = new Audio("./sounds/snare.wav");
+let ride = new Audio("./sounds/ride.wav");
 
 window.addEventListener('click',(event)=>{
     if(event.target==Boom){
