@@ -1,12 +1,12 @@
 let clap = new Audio("./Sounds/clap.wav");
 let kick = new Audio("./Sounds/kick.wav");
-let tink = new Audio("./Sounds/tink.wav");
-let tom = new Audio("./Sounds/tom.wav");
 let boom = new Audio("./Sounds/boom.wav");
 let hihat = new Audio("./Sounds/hihat.wav");
 let openhat = new Audio("./Sounds/openhat.wav");
 let snare = new Audio("./Sounds/snare.wav");
 let ride = new Audio("./Sounds/ride.wav");
+let tink = new Audio("./Sounds/tink.wav");
+let tom = new Audio("./Sounds/tom.wav");
 
 window.addEventListener('click',(event)=>{
     if(event.target==Boom){
@@ -21,7 +21,7 @@ window.addEventListener('click',(event)=>{
         openhat.play();
     } else if(event.target==Ride){
         ride.play();
-    } else if(event.target=Snare){
+    } else if(event.target==Snare){
         snare.play();
     } else if(event.target==Tink){
         tink.play();
